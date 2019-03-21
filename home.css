@@ -1,0 +1,76 @@
+body, #container {
+	padding: 0vw;
+	margin: 0vw;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F5F5F5;
+	color: black;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.7vw;
+	text-align: center;
+	width: 100vw;
+	height: auto;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	width: 100vw;
+	background-color: #FFFFFF;
+}
+
+#logo {
+	height: 7vw;
+	padding-left: 4vw;
+}
+
+#navBar {
+	padding-right: 4vw;
+}
+
+.navButton {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	color: black;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.5vw;
+	text-align: center;
+	border: none;
+	margin-left: 1vw;
+}
+
+.navButton:hover {
+	color: #148F77;
+}
+
+#sel {
+	display: none;
+}
+
+#main {
+	width: 100vw;
+}
+
+.sec1 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-position: center;
+	font-size: 2.5vw;
+	color: #F5F5F5;
+	padding: 10vw;
+}
+
+
+#lights {
+	background-image: url("https://handluggageonly.co.uk/wp-content/uploads/2017/04/Albert-Square-Manchester.jpg");
+}
