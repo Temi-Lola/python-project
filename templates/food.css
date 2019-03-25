@@ -1,0 +1,73 @@
+
+body, #container {
+	padding: 0vw;
+	margin: 0vw;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F5F5F5;
+	color: black;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.7vw;
+	text-align: center;
+	width: 100vw;
+	height: auto;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	width: 100vw;
+	background-color: #FFFFFF;
+}
+
+#logo {
+	height: 7vw;
+	padding-left: 4vw;
+}
+
+#navBar {
+	padding-right: 4vw;
+}
+
+.navButton {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	color: black;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.5vw;
+	text-align: center;
+	border: none;
+	margin-left: 1vw;
+}
+
+.navButton:hover {
+	color: #148F77;
+}
+
+#sel {
+	display: none;
+}
+
+article{
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  color: black;
+  box-sizing:border-box;
+  }
+#food {
+    column-count: 4;
+    display: block;
+    background-color: white;
+
+
+  }

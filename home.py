@@ -1,0 +1,94 @@
+@app.route('/home')
+
+def home_page():
+
+    return """
+
+     <!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Explore Manchester</title>
+
+
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <link rel="stylesheet" type="text/css" href="home.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+
+  <div id="container">
+
+
+
+              <header id="header">
+
+
+
+                            <img id="logo" src="https://i.etsystatic.com/14593570/r/il/be970c/1293079357/il_570xN.1293079357_kvsv.jpg">
+
+                            <nav id="navBar">
+
+                                         <button class="navButton" type="button" onclick="location.href='#aboutus';">ABOUT US</button>
+
+                                         <button class="navButton" type="button" onclick="location.href='#places';">PLACES</button>
+
+                                         <button class="navButton" type="button" onclick="location.href='#people';">PEOPLE</button>
+
+                                         <button class="navButton" type="button" onclick="location.href='#food';">FOOD</button>
+
+                                         <button class="navButton" type="button" onclick="location.href='#events';">EVENTS</button>
+
+                                         <button class="navButton" type="button" onclick="location.href='#contact';">CONTACT</button>
+
+
+
+      </nav>
+
+              </header>
+
+
+
+              <main id="main">
+
+                            <div class="sec1" id="explore">
+
+                                         <h1>EXPLORE MANCHESTER</h1>
+
+                                         <p>Discover the best things to do, places to go, food to eat and people to follow in the most livable city in the UK .</p>
+
+                            </div>
+
+
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/o_TKIM1vUEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<img src="https://maps.googleapis.com/maps/api/staticmap?size=700x300&markers=manchester" alt="map of manchester">
+
+
+
+              <img src="https://maps.googleapis.com/maps/api/streetview?size=700x300&location=manchester" alt="street view of manchester">
+
+
+
+</body>
+
+  </html>
+  """
