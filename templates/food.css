@@ -69,6 +69,26 @@ article{
     column-count: 4;
     display: block;
     background-color: white;
-
-
   }
+
+	#aboutus{
+		background-color: white;
+		padding: 5vw;
+		height: 500px;
+	}
+
+	.container0{
+		float: left;
+		padding-left: 10vw;
+		margin: 0 auto;
+	  width: 312px;
+		height: 480px;
+
+	}
+
+	.container1{
+		float: right;
+		margin: 0 auto;
+	  width: 50%;
+
+	}

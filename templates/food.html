@@ -14,13 +14,14 @@
 
   	<header id="header">
 
-  		<img id="logo" href="beemcr.jpg" border="2">
+  	<img id="logo" src="https://i.etsystatic.com/14593570/r/il/be970c/1293079357/il_570xN.1293079357_kvsv.jpg">
   		<nav id="navBar">
-  			<button class="navButton" type="button" onclick="location.href='#lights';">HOME</button>
-        <button class="navButton" type="button" onclick="location.href='#sweden';">FOOD</button>
+        <a class="navButton" type="button" href="home.html">HOME</a>
+        <a class="navButton" type="button" href="food.html">FOOD</a>
   			<button class="navButton" type="button" onclick="alert('We are sorry! This page is down for maintenance')">PLACES</button>
   			<button class="navButton" type="button" onclick="alert('We are sorry! This page is down for maintenance')">PEOPLE</button>
   			<button class="navButton" type="button" onclick="alert('We are sorry! This page is down for maintenance')">EVENTS</button>
+        <button class="navButton" type="button" onclick="location.href='#contact';">CONTACT</button>
       </nav>
       	</header>
 
@@ -84,17 +85,27 @@
 <br>
 </body>
 
+<br>
+<br>
 
-  <!-- Footer -->
-  <footer class="w3-row-padding w3-padding-32">
-    <div class="w3-third">
-      <h3>FOOTER</h3>
+<div class="sec2" id="aboutus"
+   <h1></h1>
 
-    </div>
+   <div class="container0">
+     <h2>Weather</h2>
+     <a class="weatherwidget-io" data-height="480px" data-width="311px" href="https://forecast7.com/en/53d48n2d24/manchester/" data-label_1="MANCHESTER" data-label_2="WEATHER" data-icons="Climacons Animated" data-theme="weather_one" >MANCHESTER WEATHER</a>
+   <script>
+   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+   </script>
+   </div>
 
-
-  </footer>
-
+   <div class="container1">
+<h2>Transport for Greater Manchester</h2>
+<a class="twitter-timeline" data-height="480px" data-width="400" href="https://twitter.com/OfficialTfGM?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Tweets by Transport for Greater Manchester</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="follow" href="https://twitter.com/OfficialTfGM?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+</div>
+</div>
 
 
 </body>
