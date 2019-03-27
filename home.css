@@ -78,13 +78,23 @@ body, #container {
 #aboutus{
 	background-color: white;
 	padding: 5vw;
+	height: 500px;
+}
+
+.container0{
+	float: left;
+	padding-left: 10vw;
+	margin: 0 auto;
+  width: 312px;
+	height: 480px;
+
 }
 
 .container1{
-	align-items: left
+	float: right;
 	margin: 0 auto;
   width: 50%;
-  text-align: center;
+
 
 }
 
